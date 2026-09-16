@@ -1,0 +1,18 @@
+html { scroll-behavior: smooth; }
+.header-actions { display: flex; align-items: center; gap: 12px; }
+.jump-flow {
+  border: 1px solid var(--mint);
+  background: transparent;
+  color: var(--mint);
+  padding: 7px 12px;
+  border-radius: 999px;
+  font: 700 .82rem/1 inherit;
+  cursor: pointer;
+}
+.jump-flow:hover,
+.jump-flow:focus-visible { background: var(--mint); color: #052218; }
+@media (max-width: 520px) {
+  .header-actions { gap: 7px; }
+  .jump-flow { padding: 6px 9px; }
+  .fresh { font-size: .76rem; }
+}
