@@ -1975,11 +1975,11 @@
       {
         "stock_id": "6659",
         "stock_name": "天明製藥",
-        "buy_amount": 1532226.2,
+        "buy_amount": 1532226.2000000002,
         "sell_amount": 1165333.55,
         "buy_vol": 76058.0,
         "sell_vol": 57014.0,
-        "net_amount": 366892.6499999999,
+        "net_amount": 366892.6500000001,
         "net_vol": 19044.0
       },
       {
