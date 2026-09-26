@@ -2,8 +2,10 @@
   "version": "9359-fixed-two-v1",
   "created": "2026-09-26",
   "as_of": "2026-09-24",
-  "generated_at": "2026-09-26T09:12:37",
+  "generated_at": "2026-09-26T09:31:08",
   "historical": {
+    "initial": 1000000.0,
+    "ticket": 500000.0,
     "stats": {
       "total_return": 1.9976409484,
       "cagr": 2.008963401,
@@ -1871,6 +1873,8 @@
     "execution_note": "先賣後買；待賣所得不預支。候選排序不保證成交，前順位未成交時可遞補；資料缺漏不補下舊單。"
   },
   "forward": {
+    "initial": 100000.0,
+    "ticket": 50000.0,
     "stats": {
       "total_return": 0.0,
       "cagr": 0.0,
@@ -1881,18 +1885,18 @@
       "mean_trade": null,
       "median_trade": null,
       "skipped": 0,
-      "ending_nav": 1000000.0,
+      "ending_nav": 100000.0,
       "stale_value": 0.0,
       "loo_min_mean": null
     },
-    "cash": 1000000.0,
+    "cash": 100000.0,
     "holdings": [],
     "orders": [
       {
         "code": "7924",
         "name": "TLC-KY",
         "action": "待買候選",
-        "budget": 500000,
+        "budget": 50000.0,
         "shares": null,
         "reference_price": 438.5,
         "buy5": 15231207.0,
@@ -1904,8 +1908,8 @@
     "curve": [
       {
         "date": "2026-09-24",
-        "nav": 1000000.0,
-        "cash": 1000000.0,
+        "nav": 100000.0,
+        "cash": 100000.0,
         "holdings": 0,
         "stale_value": 0.0
       }
