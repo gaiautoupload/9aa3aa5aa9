@@ -1,24 +1,24 @@
 {
   "version": "9359-reserve-v3",
   "created": "2026-09-26",
-  "as_of": "2026-09-24",
-  "generated_at": "2026-09-26T21:46:23",
+  "as_of": "2026-09-29",
+  "generated_at": "2026-09-29T18:16:23",
   "historical": {
     "initial": 100000.0,
     "ticket": 50000.0,
     "slots": 2,
     "reserve_budget": 0,
     "stats": {
-      "total_return": 2.0649879633,
-      "cagr": 2.0767995388,
+      "total_return": 2.0570193111,
+      "cagr": 2.0224998645,
       "max_drawdown": -0.2392550716,
       "closed": 5,
       "open": 2,
       "win_rate": 0.8,
       "mean_trade": 0.8554375243,
       "median_trade": 0.2972674742,
-      "skipped": 68,
-      "ending_nav": 306498.7963311441,
+      "skipped": 69,
+      "ending_nav": 305701.931112784,
       "stale_value": 0.0,
       "loo_min_mean": 0.5737762258
     },
@@ -30,12 +30,12 @@
         "entry": "2026-09-22",
         "shares": 248.5246533704,
         "cost": 50000.0,
-        "price": 197.0,
-        "value": 48959.3567139758,
-        "profit": -1040.6432860242,
-        "return_pct": -0.0208128657,
-        "age": 2,
-        "inventory_retention": 0.6017366937,
+        "price": 195.5,
+        "value": 48586.5697339201,
+        "profit": -1413.4302660799,
+        "return_pct": -0.0282686053,
+        "age": 3,
+        "inventory_retention": 0.4079154486,
         "quote_available": true,
         "reserve": false,
         "reserve_days_left": null,
@@ -47,11 +47,11 @@
         "entry": "2026-05-08",
         "shares": 424.0782383044,
         "cost": 50000.0,
-        "price": 103.0,
-        "value": 43680.0585453579,
-        "profit": -6319.9414546422,
-        "return_pct": -0.1263988291,
-        "age": 97,
+        "price": 102.0,
+        "value": 43255.9803070534,
+        "profit": -6744.0196929466,
+        "return_pct": -0.1348803939,
+        "age": 98,
         "inventory_retention": 0.6296657055,
         "quote_available": true,
         "reserve": false,
@@ -59,19 +59,7 @@
         "action": "續抱"
       }
     ],
-    "orders": [
-      {
-        "code": "7924",
-        "name": "TLC-KY",
-        "action": "跳過：滿倉或現金不足",
-        "budget": 0,
-        "shares": null,
-        "reference_price": 438.5,
-        "buy5": 15231207.0,
-        "retention": 0.8620923476,
-        "reason": "通過收盤訊號與過去量能門檻；依 20 日買進金額排序，成交仍需次日量能確認"
-      }
-    ],
+    "orders": [],
     "start": "2025-09-25",
     "curve": [
       {
@@ -1767,6 +1755,13 @@
         "cash": 213859.3810718104,
         "holdings": 2,
         "stale_value": 0.0
+      },
+      {
+        "date": "2026-09-29",
+        "nav": 305701.931112784,
+        "cash": 213859.3810718104,
+        "holdings": 2,
+        "stale_value": 0.0
       }
     ],
     "trades": [
@@ -1853,8 +1848,8 @@
         "exit_date": null,
         "status": "open",
         "invested": 50000.0,
-        "profit": -6319.9414546422,
-        "return": -0.1263988291,
+        "profit": -6744.0196929466,
+        "return": -0.1348803939,
         "adds": 0,
         "trims": 0,
         "exit_reason": null,
@@ -1868,8 +1863,8 @@
         "exit_date": null,
         "status": "open",
         "invested": 50000.0,
-        "profit": -1040.6432860242,
-        "return": -0.0208128657,
+        "profit": -1413.4302660799,
+        "return": -0.0282686053,
         "adds": 0,
         "trims": 0,
         "exit_reason": null,
@@ -1884,34 +1879,40 @@
     "slots": 2,
     "reserve_budget": 0,
     "stats": {
-      "total_return": 0.0,
-      "cagr": 0.0,
-      "max_drawdown": 0.0,
+      "total_return": -0.0220927399,
+      "cagr": -0.8044558519,
+      "max_drawdown": -0.0220927399,
       "closed": 0,
-      "open": 0,
+      "open": 1,
       "win_rate": null,
       "mean_trade": null,
       "median_trade": null,
       "skipped": 0,
-      "ending_nav": 100000.0,
+      "ending_nav": 97790.7260143771,
       "stale_value": 0.0,
       "loo_min_mean": null
     },
-    "cash": 100000.0,
-    "holdings": [],
-    "orders": [
+    "cash": 50000.0,
+    "holdings": [
       {
         "code": "7924",
         "name": "TLC-KY",
-        "action": "待買候選",
-        "budget": 50000.0,
-        "shares": null,
-        "reference_price": 438.5,
-        "buy5": 15231207.0,
-        "retention": 0.8620923476,
-        "reason": "通過收盤訊號與過去量能門檻；依 20 日買進金額排序，成交仍需次日量能確認"
+        "entry": "2026-09-29",
+        "shares": 113.2481659108,
+        "cost": 50000.0,
+        "price": 422.0,
+        "value": 47790.7260143771,
+        "profit": -2209.2739856229,
+        "return_pct": -0.0441854797,
+        "age": 0,
+        "inventory_retention": 1.0,
+        "quote_available": true,
+        "reserve": false,
+        "reserve_days_left": null,
+        "action": "續抱"
       }
     ],
+    "orders": [],
     "start": "2026-09-24",
     "curve": [
       {
@@ -1920,9 +1921,32 @@
         "cash": 100000.0,
         "holdings": 0,
         "stale_value": 0.0
+      },
+      {
+        "date": "2026-09-29",
+        "nav": 97790.7260143771,
+        "cash": 50000.0,
+        "holdings": 1,
+        "stale_value": 0.0
       }
     ],
-    "trades": [],
+    "trades": [
+      {
+        "stock_id": "7924",
+        "stock_name": "TLC-KY",
+        "rule": "fixed_two_v1",
+        "entry_date": "2026-09-29T00:00:00.000Z",
+        "exit_date": null,
+        "status": "open",
+        "invested": 50000.0,
+        "profit": -2209.2739856229,
+        "return": -0.0441854797,
+        "adds": 0,
+        "trims": 0,
+        "exit_reason": null,
+        "listing_date": null
+      }
+    ],
     "execution_note": "先賣後買；待賣所得不預支。候選排序不保證成交，前順位未成交時可遞補；資料缺漏不補下舊單。"
   },
   "rotation_historical": {
@@ -1931,8 +1955,8 @@
     "slots": 2,
     "reserve_budget": 0,
     "stats": {
-      "total_return": 1.5587916354,
-      "cagr": 1.5670607188,
+      "total_return": 1.5254888849,
+      "cagr": 1.5018230231,
       "max_drawdown": -0.2347413296,
       "closed": 7,
       "open": 2,
@@ -1940,7 +1964,7 @@
       "mean_trade": 0.3666352021,
       "median_trade": 0.2972674742,
       "skipped": 56,
-      "ending_nav": 255879.1635406953,
+      "ending_nav": 252548.8884868528,
       "stale_value": 0.0,
       "loo_min_mean": 0.1382357926
     },
@@ -1952,11 +1976,11 @@
         "entry": "2026-08-24",
         "shares": 179.2417014416,
         "cost": 50000.0,
-        "price": 438.5,
-        "value": 78597.4860821535,
-        "profit": 28597.4860821534,
-        "return_pct": 0.5719497216,
-        "age": 23,
+        "price": 422.0,
+        "value": 75639.9980083666,
+        "profit": 25639.9980083666,
+        "return_pct": 0.5127999602,
+        "age": 24,
         "inventory_retention": 1.0,
         "quote_available": true,
         "reserve": false,
@@ -1969,12 +1993,12 @@
         "entry": "2026-09-22",
         "shares": 248.5246533704,
         "cost": 50000.0,
-        "price": 197.0,
-        "value": 48959.3567139758,
-        "profit": -1040.6432860242,
-        "return_pct": -0.0208128657,
-        "age": 2,
-        "inventory_retention": 0.6017366937,
+        "price": 195.5,
+        "value": 48586.5697339201,
+        "profit": -1413.4302660799,
+        "return_pct": -0.0282686053,
+        "age": 3,
+        "inventory_retention": 0.4079154486,
         "quote_available": true,
         "reserve": false,
         "reserve_days_left": null,
@@ -3677,6 +3701,13 @@
         "cash": 128322.3207445661,
         "holdings": 2,
         "stale_value": 0.0
+      },
+      {
+        "date": "2026-09-29",
+        "nav": 252548.8884868528,
+        "cash": 128322.3207445661,
+        "holdings": 2,
+        "stale_value": 0.0
       }
     ],
     "trades": [
@@ -3793,8 +3824,8 @@
         "exit_date": null,
         "status": "open",
         "invested": 50000.0,
-        "profit": 28597.4860821534,
-        "return": 0.5719497216,
+        "profit": 25639.9980083666,
+        "return": 0.5127999602,
         "adds": 0,
         "trims": 0,
         "exit_reason": null,
@@ -3808,8 +3839,8 @@
         "exit_date": null,
         "status": "open",
         "invested": 50000.0,
-        "profit": -1040.6432860242,
-        "return": -0.0208128657,
+        "profit": -1413.4302660799,
+        "return": -0.0282686053,
         "adds": 0,
         "trims": 0,
         "exit_reason": null,
@@ -3824,34 +3855,40 @@
     "slots": 2,
     "reserve_budget": 0,
     "stats": {
-      "total_return": 0.0,
-      "cagr": 0.0,
-      "max_drawdown": 0.0,
+      "total_return": -0.0220927399,
+      "cagr": -0.8044558519,
+      "max_drawdown": -0.0220927399,
       "closed": 0,
-      "open": 0,
+      "open": 1,
       "win_rate": null,
       "mean_trade": null,
       "median_trade": null,
       "skipped": 0,
-      "ending_nav": 100000.0,
+      "ending_nav": 97790.7260143771,
       "stale_value": 0.0,
       "loo_min_mean": null
     },
-    "cash": 100000.0,
-    "holdings": [],
-    "orders": [
+    "cash": 50000.0,
+    "holdings": [
       {
         "code": "7924",
         "name": "TLC-KY",
-        "action": "待買候選",
-        "budget": 50000.0,
-        "shares": null,
-        "reference_price": 438.5,
-        "buy5": 15231207.0,
-        "retention": 0.8620923476,
-        "reason": "通過收盤訊號與過去量能門檻；依 20 日買進金額排序，成交仍需次日量能確認"
+        "entry": "2026-09-29",
+        "shares": 113.2481659108,
+        "cost": 50000.0,
+        "price": 422.0,
+        "value": 47790.7260143771,
+        "profit": -2209.2739856229,
+        "return_pct": -0.0441854797,
+        "age": 0,
+        "inventory_retention": 1.0,
+        "quote_available": true,
+        "reserve": false,
+        "reserve_days_left": null,
+        "action": "續抱"
       }
     ],
+    "orders": [],
     "start": "2026-09-24",
     "curve": [
       {
@@ -3860,9 +3897,32 @@
         "cash": 100000.0,
         "holdings": 0,
         "stale_value": 0.0
+      },
+      {
+        "date": "2026-09-29",
+        "nav": 97790.7260143771,
+        "cash": 50000.0,
+        "holdings": 1,
+        "stale_value": 0.0
       }
     ],
-    "trades": [],
+    "trades": [
+      {
+        "stock_id": "7924",
+        "stock_name": "TLC-KY",
+        "rule": "fixed_two_v1",
+        "entry_date": "2026-09-29T00:00:00.000Z",
+        "exit_date": null,
+        "status": "open",
+        "invested": 50000.0,
+        "profit": -2209.2739856229,
+        "return": -0.0441854797,
+        "adds": 0,
+        "trims": 0,
+        "exit_reason": null,
+        "listing_date": null
+      }
+    ],
     "execution_note": "先賣後買；待賣所得不預支。候選排序不保證成交，前順位未成交時可遞補；資料缺漏不補下舊單。"
   },
   "reserve_historical": {
@@ -3871,8 +3931,8 @@
     "slots": 3,
     "reserve_budget": 100000.0,
     "stats": {
-      "total_return": 1.5486950997,
-      "cagr": 1.5568968395,
+      "total_return": 1.5007035186,
+      "cagr": 1.4775182231,
       "max_drawdown": -0.2167285835,
       "closed": 8,
       "open": 3,
@@ -3880,7 +3940,7 @@
       "mean_trade": 0.5076304129,
       "median_trade": 0.1159914193,
       "skipped": 0,
-      "ending_nav": 509739.0199363436,
+      "ending_nav": 500140.7037297733,
       "stale_value": 0.0,
       "loo_min_mean": 0.2969943692
     },
@@ -3892,11 +3952,11 @@
         "entry": "2026-02-24",
         "shares": 135.5896408184,
         "cost": 100000.0,
-        "price": 1190.0,
-        "value": 161351.6725739294,
-        "profit": 61351.6725739294,
-        "return_pct": 0.6135167257,
-        "age": 146,
+        "price": 1165.0,
+        "value": 157961.9315534687,
+        "profit": 57961.9315534687,
+        "return_pct": 0.5796193155,
+        "age": 147,
         "inventory_retention": 0.2537828947,
         "quote_available": true,
         "reserve": false,
@@ -3909,11 +3969,11 @@
         "entry": "2026-08-19",
         "shares": 331.0909833938,
         "cost": 100000.0,
-        "price": 438.5,
-        "value": 145183.396218197,
-        "profit": 45183.396218197,
-        "return_pct": 0.4518339622,
-        "age": 26,
+        "price": 422.0,
+        "value": 139720.3949921988,
+        "profit": 39720.3949921988,
+        "return_pct": 0.3972039499,
+        "age": 27,
         "inventory_retention": 1.0,
         "quote_available": true,
         "reserve": false,
@@ -3926,15 +3986,15 @@
         "entry": "2026-09-22",
         "shares": 497.0493067409,
         "cost": 100000.0,
-        "price": 197.0,
-        "value": 97918.7134279516,
-        "profit": -2081.2865720485,
-        "return_pct": -0.0208128657,
-        "age": 2,
-        "inventory_retention": 0.6017366937,
+        "price": 195.5,
+        "value": 97173.1394678403,
+        "profit": -2826.8605321598,
+        "return_pct": -0.0282686053,
+        "age": 3,
+        "inventory_retention": 0.4079154486,
         "quote_available": true,
         "reserve": true,
-        "reserve_days_left": 28,
+        "reserve_days_left": 27,
         "action": "續抱"
       }
     ],
@@ -5634,6 +5694,13 @@
         "cash": 105285.2377162656,
         "holdings": 3,
         "stale_value": 0.0
+      },
+      {
+        "date": "2026-09-29",
+        "nav": 500140.7037297733,
+        "cash": 105285.2377162656,
+        "holdings": 3,
+        "stale_value": 0.0
       }
     ],
     "trades": [
@@ -5765,8 +5832,8 @@
         "exit_date": null,
         "status": "open",
         "invested": 100000.0,
-        "profit": 61351.6725739294,
-        "return": 0.6135167257,
+        "profit": 57961.9315534687,
+        "return": 0.5796193155,
         "adds": 0,
         "trims": 0,
         "exit_reason": null,
@@ -5780,8 +5847,8 @@
         "exit_date": null,
         "status": "open",
         "invested": 100000.0,
-        "profit": 45183.396218197,
-        "return": 0.4518339622,
+        "profit": 39720.3949921988,
+        "return": 0.3972039499,
         "adds": 0,
         "trims": 0,
         "exit_reason": null,
@@ -5795,8 +5862,8 @@
         "exit_date": null,
         "status": "open",
         "invested": 100000.0,
-        "profit": -2081.2865720485,
-        "return": -0.0208128657,
+        "profit": -2826.8605321598,
+        "return": -0.0282686053,
         "adds": 0,
         "trims": 0,
         "exit_reason": null,
@@ -5811,34 +5878,40 @@
     "slots": 3,
     "reserve_budget": 100000.0,
     "stats": {
-      "total_return": 0.0,
-      "cagr": 0.0,
-      "max_drawdown": 0.0,
+      "total_return": -0.0110463699,
+      "cagr": -0.5557764193,
+      "max_drawdown": -0.0110463699,
       "closed": 0,
-      "open": 0,
+      "open": 1,
       "win_rate": null,
       "mean_trade": null,
       "median_trade": null,
       "skipped": 0,
-      "ending_nav": 200000.0,
+      "ending_nav": 197790.7260143771,
       "stale_value": 0.0,
       "loo_min_mean": null
     },
-    "cash": 200000.0,
-    "holdings": [],
-    "orders": [
+    "cash": 150000.0,
+    "holdings": [
       {
         "code": "7924",
         "name": "TLC-KY",
-        "action": "待買候選",
-        "budget": 50000.0,
-        "shares": null,
-        "reference_price": 438.5,
-        "buy5": 15231207.0,
-        "retention": 0.8620923476,
-        "reason": "通過收盤訊號與過去量能門檻；依 20 日買進金額排序，成交仍需次日量能確認"
+        "entry": "2026-09-29",
+        "shares": 113.2481659108,
+        "cost": 50000.0,
+        "price": 422.0,
+        "value": 47790.7260143771,
+        "profit": -2209.2739856229,
+        "return_pct": -0.0441854797,
+        "age": 0,
+        "inventory_retention": 1.0,
+        "quote_available": true,
+        "reserve": false,
+        "reserve_days_left": null,
+        "action": "續抱"
       }
     ],
+    "orders": [],
     "start": "2026-09-24",
     "curve": [
       {
@@ -5847,9 +5920,32 @@
         "cash": 200000.0,
         "holdings": 0,
         "stale_value": 0.0
+      },
+      {
+        "date": "2026-09-29",
+        "nav": 197790.7260143771,
+        "cash": 150000.0,
+        "holdings": 1,
+        "stale_value": 0.0
       }
     ],
-    "trades": [],
+    "trades": [
+      {
+        "stock_id": "7924",
+        "stock_name": "TLC-KY",
+        "rule": "fixed_two_v1",
+        "entry_date": "2026-09-29T00:00:00.000Z",
+        "exit_date": null,
+        "status": "open",
+        "invested": 50000.0,
+        "profit": -2209.2739856229,
+        "return": -0.0441854797,
+        "adds": 0,
+        "trims": 0,
+        "exit_reason": null,
+        "listing_date": null
+      }
+    ],
     "execution_note": "先賣後買；待賣所得不預支。候選排序不保證成交，前順位未成交時可遞補；資料缺漏不補下舊單。"
   },
   "comparison": {
