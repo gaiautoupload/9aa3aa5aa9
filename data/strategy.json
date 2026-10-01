@@ -2,11 +2,11 @@
   "version": "9359-reserve-v3",
   "created": "2026-09-26",
   "as_of": "2026-10-01",
-  "generated_at": "2026-10-01T20:00:37",
+  "generated_at": "2026-10-01T20:10:11",
   "transfer_registry": {
     "mode": "live",
-    "checked_at": "2026-10-01T19:59:42",
-    "cache_updated_at": "2026-10-01T19:59:42",
+    "checked_at": "2026-10-01T20:09:41",
+    "cache_updated_at": "2026-10-01T20:09:41",
     "warning": ""
   },
   "historical": {
