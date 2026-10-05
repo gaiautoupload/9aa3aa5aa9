@@ -1,12 +1,12 @@
 {
   "version": "9359-reserve-v3",
   "created": "2026-09-26",
-  "as_of": "2026-10-02",
-  "generated_at": "2026-10-02T18:16:38",
+  "as_of": "2026-10-05",
+  "generated_at": "2026-10-05T18:16:21",
   "transfer_registry": {
     "mode": "live",
-    "checked_at": "2026-10-02T18:15:03",
-    "cache_updated_at": "2026-10-02T18:15:03",
+    "checked_at": "2026-10-05T18:15:03",
+    "cache_updated_at": "2026-10-05T18:15:03",
     "warning": ""
   },
   "historical": {
@@ -15,8 +15,8 @@
     "slots": 2,
     "reserve_budget": 0,
     "stats": {
-      "total_return": 2.1498512008,
-      "cagr": 2.0849525256,
+      "total_return": 2.1109650242,
+      "cagr": 2.0205070597,
       "max_drawdown": -0.2392550716,
       "closed": 5,
       "open": 2,
@@ -24,7 +24,7 @@
       "mean_trade": 0.8554375243,
       "median_trade": 0.2972674742,
       "skipped": 69,
-      "ending_nav": 314985.1200799571,
+      "ending_nav": 311096.5024184971,
       "stale_value": 0.0,
       "loo_min_mean": 0.5737762258
     },
@@ -36,12 +36,12 @@
         "entry": "2026-09-22",
         "shares": 248.5246533704,
         "cost": 50000.0,
-        "price": 232.0,
-        "value": 57657.719581941,
-        "profit": 7657.719581941,
-        "return_pct": 0.1531543916,
-        "age": 6,
-        "inventory_retention": 0.6535434433,
+        "price": 215.5,
+        "value": 53557.0628013288,
+        "profit": 3557.0628013288,
+        "return_pct": 0.071141256,
+        "age": 7,
+        "inventory_retention": 0.0135268375,
         "quote_available": true,
         "reserve": false,
         "reserve_days_left": null,
@@ -53,11 +53,11 @@
         "entry": "2026-05-08",
         "shares": 424.0782383044,
         "cost": 50000.0,
-        "price": 102.5,
-        "value": 43468.0194262056,
-        "profit": -6531.9805737944,
-        "return_pct": -0.1306396115,
-        "age": 101,
+        "price": 103.0,
+        "value": 43680.0585453579,
+        "profit": -6319.9414546422,
+        "return_pct": -0.1263988291,
+        "age": 102,
         "inventory_retention": 0.6325390087,
         "quote_available": true,
         "reserve": false,
@@ -65,7 +65,19 @@
         "action": "續抱"
       }
     ],
-    "orders": [],
+    "orders": [
+      {
+        "code": "6696",
+        "name": "仁新*",
+        "action": "跳過：滿倉或現金不足",
+        "budget": 0,
+        "shares": null,
+        "reference_price": 171.5,
+        "buy5": 6851360.0,
+        "retention": 0.8936182013,
+        "reason": "通過收盤訊號與過去量能門檻；依 20 日買進金額排序，成交仍需次日量能確認"
+      }
+    ],
     "start": "2025-09-25",
     "curve": [
       {
@@ -1789,6 +1801,13 @@
         "cash": 213859.3810718104,
         "holdings": 2,
         "stale_value": 0.0
+      },
+      {
+        "date": "2026-10-05",
+        "nav": 311096.5024184971,
+        "cash": 213859.3810718104,
+        "holdings": 2,
+        "stale_value": 0.0
       }
     ],
     "trades": [
@@ -1875,8 +1894,8 @@
         "exit_date": null,
         "status": "open",
         "invested": 50000.0,
-        "profit": -6531.9805737944,
-        "return": -0.1306396115,
+        "profit": -6319.9414546422,
+        "return": -0.1263988291,
         "adds": 0,
         "trims": 0,
         "exit_reason": null,
@@ -1890,8 +1909,8 @@
         "exit_date": null,
         "status": "open",
         "invested": 50000.0,
-        "profit": 7657.719581941,
-        "return": 0.1531543916,
+        "profit": 3557.0628013288,
+        "return": 0.071141256,
         "adds": 0,
         "trims": 0,
         "exit_reason": null,
@@ -1906,8 +1925,8 @@
     "slots": 2,
     "reserve_budget": 0,
     "stats": {
-      "total_return": 0.0356638248,
-      "cagr": 3.9526045073,
+      "total_return": 0.0067855425,
+      "cagr": 0.2517591289,
       "max_drawdown": -0.0453086139,
       "closed": 0,
       "open": 1,
@@ -1915,7 +1934,7 @@
       "mean_trade": null,
       "median_trade": null,
       "skipped": 0,
-      "ending_nav": 103566.3824758302,
+      "ending_nav": 100678.5542451036,
       "stale_value": 0.0,
       "loo_min_mean": null
     },
@@ -1927,19 +1946,31 @@
         "entry": "2026-09-29",
         "shares": 113.2481659108,
         "cost": 50000.0,
-        "price": 473.0,
-        "value": 53566.3824758302,
-        "profit": 3566.3824758302,
-        "return_pct": 0.0713276495,
-        "age": 3,
-        "inventory_retention": 0.9891642964,
+        "price": 447.5,
+        "value": 50678.5542451036,
+        "profit": 678.5542451036,
+        "return_pct": 0.0135710849,
+        "age": 4,
+        "inventory_retention": 0.9892184749,
         "quote_available": true,
         "reserve": false,
         "reserve_days_left": null,
         "action": "續抱"
       }
     ],
-    "orders": [],
+    "orders": [
+      {
+        "code": "6696",
+        "name": "仁新*",
+        "action": "待買候選",
+        "budget": 50000.0,
+        "shares": null,
+        "reference_price": 171.5,
+        "buy5": 6851360.0,
+        "retention": 0.8936182013,
+        "reason": "通過收盤訊號與過去量能門檻；依 20 日買進金額排序，成交仍需次日量能確認"
+      }
+    ],
     "start": "2026-09-24",
     "curve": [
       {
@@ -1976,6 +2007,13 @@
         "cash": 50000.0,
         "holdings": 1,
         "stale_value": 0.0
+      },
+      {
+        "date": "2026-10-05",
+        "nav": 100678.5542451036,
+        "cash": 50000.0,
+        "holdings": 1,
+        "stale_value": 0.0
       }
     ],
     "trades": [
@@ -1987,8 +2025,8 @@
         "exit_date": null,
         "status": "open",
         "invested": 50000.0,
-        "profit": 3566.3824758302,
-        "return": 0.0713276495,
+        "profit": 678.5542451036,
+        "return": 0.0135710849,
         "adds": 0,
         "trims": 0,
         "exit_reason": null,
@@ -2003,8 +2041,8 @@
     "slots": 2,
     "reserve_budget": 0,
     "stats": {
-      "total_return": 1.7076136511,
-      "cagr": 1.6591163458,
+      "total_return": 1.6209004494,
+      "cagr": 1.556058632,
       "max_drawdown": -0.2347413296,
       "closed": 7,
       "open": 2,
@@ -2012,7 +2050,7 @@
       "mean_trade": 0.3666352021,
       "median_trade": 0.2972674742,
       "skipped": 56,
-      "ending_nav": 270761.3651083966,
+      "ending_nav": 262090.044941023,
       "stale_value": 0.0,
       "loo_min_mean": 0.1382357926
     },
@@ -2024,12 +2062,12 @@
         "entry": "2026-08-24",
         "shares": 179.2417014416,
         "cost": 50000.0,
-        "price": 473.0,
-        "value": 84781.3247818896,
-        "profit": 34781.3247818896,
-        "return_pct": 0.6956264956,
-        "age": 27,
-        "inventory_retention": 0.9891642964,
+        "price": 447.5,
+        "value": 80210.6613951281,
+        "profit": 30210.6613951281,
+        "return_pct": 0.6042132279,
+        "age": 28,
+        "inventory_retention": 0.9892184749,
         "quote_available": true,
         "reserve": false,
         "reserve_days_left": null,
@@ -2041,19 +2079,31 @@
         "entry": "2026-09-22",
         "shares": 248.5246533704,
         "cost": 50000.0,
-        "price": 232.0,
-        "value": 57657.719581941,
-        "profit": 7657.719581941,
-        "return_pct": 0.1531543916,
-        "age": 6,
-        "inventory_retention": 0.6535434433,
+        "price": 215.5,
+        "value": 53557.0628013288,
+        "profit": 3557.0628013288,
+        "return_pct": 0.071141256,
+        "age": 7,
+        "inventory_retention": 0.0135268375,
         "quote_available": true,
         "reserve": false,
         "reserve_days_left": null,
         "action": "續抱"
       }
     ],
-    "orders": [],
+    "orders": [
+      {
+        "code": "6696",
+        "name": "仁新*",
+        "action": "跳過：滿倉或現金不足",
+        "budget": 0,
+        "shares": null,
+        "reference_price": 171.5,
+        "buy5": 6851360.0,
+        "retention": 0.8936182013,
+        "reason": "通過收盤訊號與過去量能門檻；依 20 日買進金額排序，成交仍需次日量能確認"
+      }
+    ],
     "start": "2025-09-25",
     "curve": [
       {
@@ -3777,6 +3827,13 @@
         "cash": 128322.3207445661,
         "holdings": 2,
         "stale_value": 0.0
+      },
+      {
+        "date": "2026-10-05",
+        "nav": 262090.044941023,
+        "cash": 128322.3207445661,
+        "holdings": 2,
+        "stale_value": 0.0
       }
     ],
     "trades": [
@@ -3893,8 +3950,8 @@
         "exit_date": null,
         "status": "open",
         "invested": 50000.0,
-        "profit": 34781.3247818896,
-        "return": 0.6956264956,
+        "profit": 30210.6613951281,
+        "return": 0.6042132279,
         "adds": 0,
         "trims": 0,
         "exit_reason": null,
@@ -3908,8 +3965,8 @@
         "exit_date": null,
         "status": "open",
         "invested": 50000.0,
-        "profit": 7657.719581941,
-        "return": 0.1531543916,
+        "profit": 3557.0628013288,
+        "return": 0.071141256,
         "adds": 0,
         "trims": 0,
         "exit_reason": null,
@@ -3924,8 +3981,8 @@
     "slots": 2,
     "reserve_budget": 0,
     "stats": {
-      "total_return": 0.0356638248,
-      "cagr": 3.9526045073,
+      "total_return": 0.0067855425,
+      "cagr": 0.2517591289,
       "max_drawdown": -0.0453086139,
       "closed": 0,
       "open": 1,
@@ -3933,7 +3990,7 @@
       "mean_trade": null,
       "median_trade": null,
       "skipped": 0,
-      "ending_nav": 103566.3824758302,
+      "ending_nav": 100678.5542451036,
       "stale_value": 0.0,
       "loo_min_mean": null
     },
@@ -3945,19 +4002,31 @@
         "entry": "2026-09-29",
         "shares": 113.2481659108,
         "cost": 50000.0,
-        "price": 473.0,
-        "value": 53566.3824758302,
-        "profit": 3566.3824758302,
-        "return_pct": 0.0713276495,
-        "age": 3,
-        "inventory_retention": 0.9891642964,
+        "price": 447.5,
+        "value": 50678.5542451036,
+        "profit": 678.5542451036,
+        "return_pct": 0.0135710849,
+        "age": 4,
+        "inventory_retention": 0.9892184749,
         "quote_available": true,
         "reserve": false,
         "reserve_days_left": null,
         "action": "續抱"
       }
     ],
-    "orders": [],
+    "orders": [
+      {
+        "code": "6696",
+        "name": "仁新*",
+        "action": "待買候選",
+        "budget": 50000.0,
+        "shares": null,
+        "reference_price": 171.5,
+        "buy5": 6851360.0,
+        "retention": 0.8936182013,
+        "reason": "通過收盤訊號與過去量能門檻；依 20 日買進金額排序，成交仍需次日量能確認"
+      }
+    ],
     "start": "2026-09-24",
     "curve": [
       {
@@ -3994,6 +4063,13 @@
         "cash": 50000.0,
         "holdings": 1,
         "stale_value": 0.0
+      },
+      {
+        "date": "2026-10-05",
+        "nav": 100678.5542451036,
+        "cash": 50000.0,
+        "holdings": 1,
+        "stale_value": 0.0
       }
     ],
     "trades": [
@@ -4005,8 +4081,8 @@
         "exit_date": null,
         "status": "open",
         "invested": 50000.0,
-        "profit": 3566.3824758302,
-        "return": 0.0713276495,
+        "profit": 678.5542451036,
+        "return": 0.0135710849,
         "adds": 0,
         "trims": 0,
         "exit_reason": null,
@@ -4021,8 +4097,8 @@
     "slots": 3,
     "reserve_budget": 100000.0,
     "stats": {
-      "total_return": 1.6182176205,
-      "cagr": 1.572888464,
+      "total_return": 1.5078790242,
+      "cagr": 1.4486381518,
       "max_drawdown": -0.2167285835,
       "closed": 8,
       "open": 3,
@@ -4030,7 +4106,7 @@
       "mean_trade": 0.5076304129,
       "median_trade": 0.1159914193,
       "skipped": 0,
-      "ending_nav": 523643.5241093344,
+      "ending_nav": 501575.8048388301,
       "stale_value": 0.0,
       "loo_min_mean": 0.2969943692
     },
@@ -4042,12 +4118,12 @@
         "entry": "2026-08-19",
         "shares": 331.0909833938,
         "cost": 100000.0,
-        "price": 473.0,
-        "value": 156606.0351452844,
-        "profit": 56606.0351452844,
-        "return_pct": 0.5660603515,
-        "age": 30,
-        "inventory_retention": 0.9891642964,
+        "price": 447.5,
+        "value": 148163.2150687416,
+        "profit": 48163.2150687416,
+        "return_pct": 0.4816321507,
+        "age": 31,
+        "inventory_retention": 0.9892184749,
         "quote_available": true,
         "reserve": false,
         "reserve_days_left": null,
@@ -4059,12 +4135,12 @@
         "entry": "2026-02-24",
         "shares": 135.5896408184,
         "cost": 100000.0,
-        "price": 1080.0,
-        "value": 146436.8120839023,
-        "profit": 46436.8120839023,
-        "return_pct": 0.4643681208,
-        "age": 150,
-        "inventory_retention": 0.2639802632,
+        "price": 1040.0,
+        "value": 141013.2264511651,
+        "profit": 41013.2264511651,
+        "return_pct": 0.4101322645,
+        "age": 151,
+        "inventory_retention": 0.2672697368,
         "quote_available": true,
         "reserve": false,
         "reserve_days_left": null,
@@ -4076,15 +4152,15 @@
         "entry": "2026-09-22",
         "shares": 497.0493067409,
         "cost": 100000.0,
-        "price": 232.0,
-        "value": 115315.439163882,
-        "profit": 15315.439163882,
-        "return_pct": 0.1531543916,
-        "age": 6,
-        "inventory_retention": 0.6535434433,
+        "price": 215.5,
+        "value": 107114.1256026577,
+        "profit": 7114.1256026577,
+        "return_pct": 0.071141256,
+        "age": 7,
+        "inventory_retention": 0.0135268375,
         "quote_available": true,
         "reserve": true,
-        "reserve_days_left": 24,
+        "reserve_days_left": 23,
         "action": "續抱"
       }
     ],
@@ -5812,6 +5888,13 @@
         "cash": 105285.2377162656,
         "holdings": 3,
         "stale_value": 0.0
+      },
+      {
+        "date": "2026-10-05",
+        "nav": 501575.8048388301,
+        "cash": 105285.2377162656,
+        "holdings": 3,
+        "stale_value": 0.0
       }
     ],
     "trades": [
@@ -5943,8 +6026,8 @@
         "exit_date": null,
         "status": "open",
         "invested": 100000.0,
-        "profit": 46436.8120839023,
-        "return": 0.4643681208,
+        "profit": 41013.2264511651,
+        "return": 0.4101322645,
         "adds": 0,
         "trims": 0,
         "exit_reason": null,
@@ -5958,8 +6041,8 @@
         "exit_date": null,
         "status": "open",
         "invested": 100000.0,
-        "profit": 56606.0351452844,
-        "return": 0.5660603515,
+        "profit": 48163.2150687416,
+        "return": 0.4816321507,
         "adds": 0,
         "trims": 0,
         "exit_reason": null,
@@ -5973,8 +6056,8 @@
         "exit_date": null,
         "status": "open",
         "invested": 100000.0,
-        "profit": 15315.439163882,
-        "return": 0.1531543916,
+        "profit": 7114.1256026577,
+        "return": 0.071141256,
         "adds": 0,
         "trims": 0,
         "exit_reason": null,
@@ -5989,8 +6072,8 @@
     "slots": 3,
     "reserve_budget": 100000.0,
     "stats": {
-      "total_return": 0.0178319124,
-      "cagr": 1.2410949943,
+      "total_return": 0.0033927712,
+      "cagr": 0.1190328109,
       "max_drawdown": -0.0226543069,
       "closed": 0,
       "open": 1,
@@ -5998,7 +6081,7 @@
       "mean_trade": null,
       "median_trade": null,
       "skipped": 0,
-      "ending_nav": 203566.3824758302,
+      "ending_nav": 200678.5542451036,
       "stale_value": 0.0,
       "loo_min_mean": null
     },
@@ -6010,19 +6093,31 @@
         "entry": "2026-09-29",
         "shares": 113.2481659108,
         "cost": 50000.0,
-        "price": 473.0,
-        "value": 53566.3824758302,
-        "profit": 3566.3824758302,
-        "return_pct": 0.0713276495,
-        "age": 3,
-        "inventory_retention": 0.9891642964,
+        "price": 447.5,
+        "value": 50678.5542451036,
+        "profit": 678.5542451036,
+        "return_pct": 0.0135710849,
+        "age": 4,
+        "inventory_retention": 0.9892184749,
         "quote_available": true,
         "reserve": false,
         "reserve_days_left": null,
         "action": "續抱"
       }
     ],
-    "orders": [],
+    "orders": [
+      {
+        "code": "6696",
+        "name": "仁新*",
+        "action": "待買候選",
+        "budget": 50000.0,
+        "shares": null,
+        "reference_price": 171.5,
+        "buy5": 6851360.0,
+        "retention": 0.8936182013,
+        "reason": "通過收盤訊號與過去量能門檻；依 20 日買進金額排序，成交仍需次日量能確認"
+      }
+    ],
     "start": "2026-09-24",
     "curve": [
       {
@@ -6059,6 +6154,13 @@
         "cash": 150000.0,
         "holdings": 1,
         "stale_value": 0.0
+      },
+      {
+        "date": "2026-10-05",
+        "nav": 200678.5542451036,
+        "cash": 150000.0,
+        "holdings": 1,
+        "stale_value": 0.0
       }
     ],
     "trades": [
@@ -6070,8 +6172,8 @@
         "exit_date": null,
         "status": "open",
         "invested": 50000.0,
-        "profit": 3566.3824758302,
-        "return": 0.0713276495,
+        "profit": 678.5542451036,
+        "return": 0.0135710849,
         "adds": 0,
         "trims": 0,
         "exit_reason": null,
